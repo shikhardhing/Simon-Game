@@ -2,6 +2,10 @@ body{
     background-color:#eee;
 }
 
+.won{
+    visibility: hidden;
+}
+
 .circle{
     left:0;
     right:0;
@@ -16,8 +20,7 @@ body{
     border-top-left-radius: 100%;
     border-top-right-radius: 100%;
     align-content: center;
-    background-color:#444;
-    
+    background-color:#444;    
 }
 
 .colors-wrapper{
@@ -34,27 +37,27 @@ body{
     margin:10px;
     width:200px;
     height:200px;
+    opacity:0.75;
 }
-
-.colors:active{
-    background-color: white;
+.colors-highlight{
+    opacity:1;
 }
 
 .green{
     border-top-left-radius: 100%;
-    background-color: #00a74a;
+    background-color: limegreen;
 }
 .red{
     border-top-right-radius: 100%;
-    background-color: #9f0f17;
+    background-color: red;
 }
 .yellow{
     border-bottom-left-radius: 100%;
-    background-color: #cca707;
+    background-color: yellow;
 }
 .blue{
     border-bottom-right-radius: 100%;
-    background-color: #094a8f;
+    background-color: dodgerblue    ;
 }
 .buttons-wrapper{
     left:0;
@@ -84,6 +87,11 @@ h1{
     background-color: #430710;
     border:4px solid #333;
     margin-bottom:5px;
+    font-size: 25px;
+    padding-top:0;
+}
+.count-on{
+    color:#DC0D29;
 }
 .start{
     width:30px;
